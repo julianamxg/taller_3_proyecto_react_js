@@ -1,0 +1,96 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #1f1e1e;
+    align-items: center;
+    color: white;
+    height: 6.5em;
+    font-size: 2em;
+    margin-top: 3rem;
+}
+
+
+
+.titulo h1{
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+
+.calific{
+    height:20em ;
+}
+
+
+.cards{
+     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    margin-top: -2%;
+}
+
+
+.nombreP{
+    display: flex;
+}
+
+
+.nombrep img{
+    padding: 2%;
+}
+
+
+.nombreP h5{
+     
+    padding-top: 2.2rem;
+    font-size: 1.5rem;
+}
+
+
+.stars{
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7.5rem;
+    /* font-size: 1rem; */
+    letter-spacing: 0.5rem;
+}
+
+
+i.fas.fa-star.roja{
+    color: #9C2759;
+}
+
+
+.cards img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    margin-right: 5%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+#op{
+    display: flex;
+    flex-direction: column;
+    background-image:  url(fondoazul.jpeg);
+    border-radius: 3px;
+    color:var(--blanco);
+    width: 30%;
+}
+
+.descripcion{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 1.5rem;
+    margin-bottom: 3rem;
+    margin:0.4rem;
+    font-size: 1.2rem;
+}
