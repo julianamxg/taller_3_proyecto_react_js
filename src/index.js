@@ -5,6 +5,8 @@ import Banner from './components/banner/Banner';
 import Descripcion from './components/descripcion/Descripcion';
 import Feature from './components/feature/Feature';
 import './index.css';
+import Ubicacion from './components/ubicacion/Ubicacion';
+import Footer from './components/footer/Footer';
 
 
 
@@ -15,6 +17,9 @@ root.render(
     <Banner/>
     <Descripcion/>
     <Feature/>
+    <Ubicacion/>
+    <Footer/>
+   
   </React.StrictMode>
 );
 
