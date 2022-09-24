@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro2);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+/*.outside{
+    transform: translateY(-100em);
+    
+}
+.open{
+    transform: translateX(0);
+}*/
+
+.item{
+    padding: 1rem;
+}
+
+
+.item2{
+    border-radius: 5%;
+    background-color: #337AB7;
+    padding: 0.5rem;
+}
+
+nav a{
+    color: var(--blanco);
+    text-decoration: none;  
+}
+
+
+nav a:hover{
+    color: var(--azuloscuro);
+    width: 100%;
+}
+
+.logo img{
+    height: 4rem;     
+}
+
+
+.logo i{
+    background-color: #000;
+}
