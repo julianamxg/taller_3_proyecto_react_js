@@ -1,5 +1,5 @@
 import logov from "./Hotelia horizontal blanco.svg";
-import "./nav.css";
+import "./Nav.css";
 function Nav(){
     return(
         <nav>
