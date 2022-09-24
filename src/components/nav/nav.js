@@ -3,7 +3,7 @@ import "./Nav.css";
 function Nav(){
     return(
         <nav>
-        <div class="logo">
+        <div class="logoN">
                 <i class="fa-solid fa-bars icono"></i>
                 <img src={logov} alt="Logo Hotelia"/>
         </div>
