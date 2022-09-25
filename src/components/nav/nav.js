@@ -11,7 +11,7 @@ function Nav(){
                 <a href="index.html" class="item">Inicio</a>
                 <a href="ubicacion.html" class="item">Ubícanos</a>
                 <a href="opiniones.html" class="item">Opiniones</a>
-                <a href="assets/login.html" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
+                <a href="./src/login.js" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
         </div>
     </nav>
     );
