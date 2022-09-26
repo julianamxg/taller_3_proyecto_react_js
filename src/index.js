@@ -1,21 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Nav from './components/nav/nav';
-import Banner from './components/banner/Banner';
-import Descripcion from './components/descripcion/Descripcion';
-import Feature from './components/feature/Feature';
-import './index.css';
-
-
+import {BrowserRouter,Route,Routes} from "react-router-dom";
+import Home from './pages/Home';
+import Registro from './pages/Registro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Nav/>
-    <Banner/>
-    <Descripcion/>
-    <Feature/>
-  </React.StrictMode>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home />} />
+    <Route path='/registro' element={<Registro />} />
+  </Routes>
+</BrowserRouter> 
 );
+
+/**/
 
 
