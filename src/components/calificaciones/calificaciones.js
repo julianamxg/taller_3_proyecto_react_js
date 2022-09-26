@@ -2,6 +2,7 @@ import p1 from "./perfil1.jpg";
 import p2 from "./perfil2.jpg";
 import p3 from "./perfil3.jpg";
 import "./Calificaciones.css";
+import "https://kit.fontawesome.com/6131ecdde6.js"
 function Calificaciones() {
     return (
         <section class="calific">

@@ -1,5 +1,6 @@
 import logov from "./Hotelia horizontal blanco.svg";
 import "./Nav.css";
+import "https://kit.fontawesome.com/6131ecdde6.js"
 function Nav(){
     return(
         <nav>
