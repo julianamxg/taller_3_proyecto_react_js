@@ -1,0 +1,46 @@
+.footer{
+    background-color: #1f1e1e;
+    color: white;
+    padding: 2%;
+    margin-top: 13rem;
+}
+
+
+.footer .text-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    height: 100%;
+    width: 100%;
+    font-family: 'Marcellus', serif;
+}
+
+
+.texto1-footer{
+    width: 25%;
+}
+
+
+.direc{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.red{
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+
+
+#separador{
+    margin-top: 21%;
+}
+
+
+.iconos p{
+    margin-left: 4%;
+   
+}

@@ -22,16 +22,13 @@
     margin: 0;
 }
 
-body{
+.body{
     background: url(./fondo.jpeg) no-repeat;
     background-size: cover;
     color: white;
     max-height: 50%;
     padding-top: 12rem;
 }
-
-
-
 
 .contenedor{
     padding-top: 0;
@@ -139,7 +136,7 @@ p{
         margin: 0;
     }
     
-    body{
+    .body{
         background: url(./fondo.jpeg) no-repeat;
         background-size: cover;
         height: 100vh;
@@ -182,7 +179,7 @@ p{
         align-items: center;
     }
     
-     i{
+     /*i{
         background-color: var(--Magenta);
         font-size: 2rem;
         border-radius: 50%;
@@ -193,7 +190,7 @@ p{
         align-items: center;
         margin-bottom: 1rem;
         margin-top: 2rem;
-    }
+    }*/
     
     
     
@@ -251,7 +248,7 @@ p{
         margin: 0;
     }
     
-    body{
+    .body{
         background: url(./fondo.jpeg) no-repeat;
         background-size: cover;
         color: white;
@@ -293,7 +290,7 @@ p{
         align-items: center;
     }
     
-     i{
+    /* i{
         background-color: var(--Magenta);
         font-size: 2rem;
         border-radius: 50%;
@@ -304,7 +301,7 @@ p{
         align-items: center;
         margin-bottom: 1rem;
         margin-top: 2rem;
-    }
+    }*/
     
     
     

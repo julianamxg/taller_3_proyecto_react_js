@@ -1,0 +1,327 @@
+.formulario{
+    width: 100%;
+    margin: 1em;
+    
+}
+
+
+.form-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form input{
+    width: 25em;
+    height: 2em;
+    border: none;
+    margin: 4px;
+    border-bottom: 2px solid var(--gris);
+}
+
+.form input[type=radio]{
+    width: 5em;
+    
+}
+
+
+.form .radio{
+    display: flex;
+    padding: 0em;
+    margin-left: -4%;
+}
+
+
+.form-cont-2{
+    display: flex;
+    margin: 0.5em;
+}
+
+
+.form a{
+    display: 	flex;
+    background: var(--negro);
+    width: 18rem;
+    height: 2.2em;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.form label{
+    color: black;
+    font-weight: 200;
+    font-size: 1em;
+    padding: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.form a h2{
+    font-weight: 100;
+}
+
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form.separador{
+    margin-left: -7%;
+}
+
+
+/********/
+
+@media screen and (max-width: 1072px){
+    .logo .desktop{
+        display: none;
+    }
+    
+    
+    .logo .mobile{
+        display: block;
+    }
+    
+    
+    .descripcion .fotoP #perfil{
+        display: flex;
+        height: 3em;
+        width: 3em;
+    }
+    
+    
+    .descripcion img{
+        display: block;
+        max-width: 40px;
+        width: 100%;
+        border-radius: 8%;
+    }
+    
+    
+    .descripcion{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .descripcion h3,h4{
+        display: none;
+    }
+
+
+    .iconos .icon_1{
+        display: none;
+    }
+
+
+    .op a p{
+        display: none;
+    }
+    
+    
+    .op a{
+        justify-content: center;
+    }
+    
+    
+    .cerrar a p{
+        display: none;
+    }
+    
+    
+    .cerrar a{
+        justify-content: center;
+    }
+    
+    
+    .servicios{
+        justify-content: space-around;
+    }
+    
+    
+    .servicios a i:hover{
+        background: var(--azuloscuro);
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+    .cerrar a:hover{
+        background: var(--azuloscuro);
+        width: 100%;
+    }
+    
+    
+    .Bienvenido{
+        margin-bottom: 2%;
+        margin-left: 10%;
+    }
+
+
+    .contenido{
+      margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    
+    .informacion{
+      height: 1%;
+    }
+    
+    
+    .inferior{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    .foto{
+      margin-left: 0;
+    }
+    
+    
+    .foto img {
+        width: 60%;
+        height: 14em;
+    }
+    
+    
+    .iconos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 2em;
+      margin-bottom: 20%;
+      margin: 2%;
+    }
+
+
+    #email{
+        width: 39.5em;
+    }
+
+
+    .password{
+     
+      font-size: 0.8em;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10%;
+    }
+    
+    
+    .left-form input{
+      margin-top: 5%;
+      margin-bottom: 10%;
+
+    }
+    
+    
+    .uno{
+      margin-left: -30%;
+    }
+    
+    
+    .right-form input{
+      margin-top: 5%;
+      margin-bottom: 8%;
+    }
+    
+    
+    .dos{
+      margin-top: -1%;
+    }
+    
+    
+    .dos{
+      margin-left: -30%;
+    }
+
+
+    .form-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form-cont{
+        margin: 1em;
+    }
+
+
+    .form input{
+        width: 90%;
+    }
+
+
+    .form input[type=radio]{
+        width: 1em;
+        
+    }
+
+
+    .form-cont-2{
+        margin: 1em;
+    }
+
+
+    .form a{
+        width: 12em;
+    }
+
+
+    .password{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1073px) and (max-width: 1300px) {
+    .descripcion img{
+        display: flex;
+    }
+
+
+    .foto img {
+        display: none;
+    }
+
+
+    .descripcion .icon_p #perfil{
+        display: flex;
+        margin-top: -105%;
+        margin-left: 100%;
+    }
+
+
+    .persona{
+        height: 25%;
+    }
+
+
+    .password {
+        display: none;
+    }
+
+
+    .iconos {
+        display: none;
+    }
+}
