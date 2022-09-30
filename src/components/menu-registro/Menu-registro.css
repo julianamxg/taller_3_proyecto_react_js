@@ -11,3 +11,27 @@
     font-size:xx-large;
     align-content: center;
 }
+
+@media screen and (min-width: 200px) and (max-width: 600px){
+
+.menuu{
+    width: 100%; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;  
+    background-color: #0b3860af;
+    font-size:xx-large;
+    align-content: center;
+    margin-top: 2rem;
+    position: absolute;
+}
+
+.textos .mobile {
+    display: block;
+    font-size: 1.5rem;
+}
+
+}

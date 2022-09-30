@@ -1,0 +1,458 @@
+
+.informacion{
+    background: url(./fondoDash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.informacion{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido{
+    width: 70%;
+    height: 94vh;
+    margin-left: 17%;
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    margin-top:0.5rem ;
+    flex-direction: column;
+   
+}
+
+
+.inferior{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.foto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.foto img{
+    border-radius: 5%;
+    margin-bottom: 5%;
+    width: 61%;
+    
+}
+
+
+.formulario{
+    width: 75%;
+    height: 140%;
+}
+
+
+.iconosDash{
+    width: 70%;
+    height: 7%;
+    background-color: #337AB7;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconosDash i{
+    font-size: 1.5em;
+    margin: 2% 8% 2% 8%;
+    color: white;
+}
+
+
+.contra{
+    width: 70%;
+    height: 14%;
+    border-radius: 2%;
+    background-color: var(--negro);
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contra{
+    width: 70%;
+    height: 14%;
+    border-radius: 2%;
+    background-color: var(--negro);
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contra a{
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    text-decoration: none;
+    color: #fff
+}
+
+
+.contenido .Bienvenido{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Bienvenido h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
+/********/
+.formulario{
+    width: 100%;
+    margin: 1em;
+    
+}
+
+
+.form-cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.formDash{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formDash input{
+    width: 21em;
+    height: 1.9em;
+    border: none;
+    margin: 4px;
+    border-bottom: 2px solid var(--gris);
+    font-size: 15px;
+}
+
+.formDash input[type=radio]{
+    width: 5em;
+    
+}
+
+
+.formDash .radio{
+    display: flex;
+    padding: 0em;
+    margin-left: -4%;
+}
+
+
+.form-cont-2{
+    display: flex;
+    margin: 0.5em;
+}
+
+
+.formDash a{
+    display: 	flex;
+    background: var(--negro);
+    width: 18rem;
+    height: 2.2em;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff
+    
+    
+}
+
+
+.formDash label{
+    color: black;
+    font-weight: 200;
+    font-size: 1em;
+    padding: 0.2em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.formDash a h2{
+    font-weight: 100;
+}
+
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formDash.separador{
+    margin-left: -7%;
+}
+
+
+/********/
+
+@media screen and (max-width: 1072px){
+    .logoDash .desktop{
+        display: none;
+    }
+    
+    
+    .logoDash .mobile{
+        display: block;
+    }
+    
+    
+    .descripcionDash .fotoP #perfil{
+        display: flex;
+        height: 3em;
+        width: 3em;
+    }
+    
+    
+    .descripcionDash img{
+        display: block;
+        max-width: 40px;
+        width: 100%;
+        border-radius: 8%;
+    }
+    
+    
+    .descripcionDash{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .descripcionDash h3,h4{
+        display: none;
+    }
+
+
+    .iconosDash .icon_1{
+        display: none;
+    }
+
+
+    .op a p{
+        display: none;
+    }
+    
+    
+    .op a{
+        justify-content: center;
+    }
+    
+    
+    .cerrar a p{
+        display: none;
+    }
+    
+    
+    .cerrar a{
+        justify-content: center;
+    }
+    
+    
+    .servicios{
+        justify-content: space-around;
+    }
+    
+    
+    .servicios a i:hover{
+        background: var(--azuloscuro);
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+    .cerrar a:hover{
+        background: var(--azuloscuro);
+        width: 100%;
+    }
+    
+    
+    .Bienvenido{
+        margin-bottom: 2%;
+        margin-left: 10%;
+    }
+
+
+    .contenido{
+      margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    
+    .informacion{
+      height: 1%;
+    }
+    
+    
+    .inferior{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    
+    .foto{
+      margin-left: 0;
+    }
+    
+    
+    .foto img {
+        width: 60%;
+        height: 14em;
+    }
+    
+    
+    .iconosDash{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 2em;
+      margin-bottom: 20%;
+      margin: 2%;
+    }
+
+
+    #email{
+        width: 39.5em;
+    }
+
+
+    .password a{
+      font-size: 0.8em;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10%;
+      text-decoration: none;
+      color: #fff
+    }
+    
+    
+    .left-form input{
+      margin-top: 5%;
+      margin-bottom: 10%;
+
+    }
+    
+    
+    .uno{
+      margin-left: -30%;
+    }
+    
+    
+    .right-form input{
+      margin-top: 5%;
+      margin-bottom: 8%;
+    }
+    
+    
+    .dos{
+      margin-top: -1%;
+    }
+    
+    
+    .dos{
+      margin-left: -30%;
+    }
+
+
+    .form-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form-cont{
+        margin: 1em;
+    }
+
+
+    .formDash input{
+        width: 90%;
+    }
+
+
+    .formDash input[type=radio]{
+        width: 1em;
+        
+    }
+
+
+    .form-cont-2{
+        margin: 1em;
+    }
+
+
+    .formDash a{
+        width: 12em;
+        text-decoration: none;
+        color: #fff
+    }
+
+
+    .contra{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1073px) and (max-width: 1300px) {
+    .descripcionDash img{
+        display: flex;
+    }
+
+
+    .foto img {
+        display: none;
+    }
+
+
+    .descripcionDash .icon_p #perfil{
+        display: flex;
+        margin-top: -105%;
+        margin-left: 100%;
+    }
+
+
+    .persona{
+        height: 25%;
+    }
+
+
+    .contra a {
+        display: none;
+    }
+
+
+    .iconosDash {
+        display: none;
+    }
+}

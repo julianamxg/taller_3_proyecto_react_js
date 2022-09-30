@@ -7,6 +7,8 @@ import Nav from "../components/nav/Nav";
 import Ubicacion from "../components/ubicacion/Ubicacion";
 import Calificaciones from "../components/calificaciones/calificaciones";
 import '../index.css';
+//import '../components/nav/Click'
+
 
 function Home(){
     return(
@@ -19,6 +21,10 @@ function Home(){
         <Calificaciones/>
         <Footer/>
         </>
+       
     );
+    
 }
+
+
 export default Home;

@@ -1,21 +1,32 @@
+import { Link } from "react-router-dom";
 import logov from "./Hotelia horizontal blanco.svg";
 import "./Nav.css";
-import "https://kit.fontawesome.com/6131ecdde6.js"
+import PropsNav from "./PropsNav";
+
+
 function Nav(){
+    
     return(
         <nav>
         <div class="logoN">
-                <i class="fa-solid fa-bars icono"></i>
-                <img src={logov} alt="Logo Hotelia"/>
+            <PropsNav
+                iconoNav="fa-solid fa-bars icono"
+                imagenNav={logov}/>
         </div>
         <div class="menu">
-                <a href="index.html" class="item">Inicio</a>
-                <a href="ubicacion.html" class="item">Ubícanos</a>
-                <a href="opiniones.html" class="item">Opiniones</a>
-                <a href="assets/login.html" class="item2"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
+                <Link to="/" class="item">Inicio</Link>
+                <Link to="/" class="item">Ubícanos</Link>
+                <Link to="/" class="item">Opiniones</Link>
+                <hr class="menu-hr" noshade=""></hr>
+                <Link to="/login" class="item2"><i class="fa-solid fa-user inicio"></i> Iniciar Sesión</Link>
         </div>
+        
+       
     </nav>
     );
-}
+    
+    }
+
+
 
 export default Nav;

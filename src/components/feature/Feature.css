@@ -1,21 +1,58 @@
-#feature{
-    background-image: url("bg-features.png");
-    color: var(--blanco);
-    padding: 1.5rem 0;
+#features{
+    background: url(./bg-features.png);
+    color: white;
+    padding-top: 1rem;
 }
 
-#feature h2{
+
+
+.features-title{
+    background-color: rgba(0, 0, 0, 0.342);
     text-align: center;
-    font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.4);
     padding: 0.5rem;
-    font-weight: 400;
-    text-shadow: 3px 3px 3px #000000;
+    font-size: 2rem;
 }
 
-.feature-row{
+
+
+.features-description{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 1rem;
-    
+}
+
+
+
+.feature{
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 2rem;
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+
+.feature i{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feature p{
+    text-align: center;
+}
+
+.feature-blue{
+    background-color: rgba(9, 53, 104, 0.63);
+}
+
+
+.feature-black
+{
+    background-color: rgba(0, 0, 0, 0.719);
 }
