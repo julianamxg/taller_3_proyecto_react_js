@@ -1,15 +1,9 @@
-#banner{
-    background-image: url("slide1.jpg");
-    height: 500px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
+.carruselOp.carousel{
+    width: 30%;
 }
 
-#banner h4{
-    color: var(--blanco);
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 55%;
-    padding: 1rem;
-    font-size: 2rem;
+
+.carruselOp{
+    margin-right: 1.3rem;
+    margin-top: -15rem;
 }

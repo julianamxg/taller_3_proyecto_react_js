@@ -94,3 +94,114 @@ i.fas.fa-star.roja{
     margin:0.4rem;
     font-size: 1.2rem;
 }
+
+.carruselOp{
+    display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+
+
+    .titulo{
+          height: 4em;
+    }
+
+
+    .titulo h1 {
+          font-size: 1em;
+    }
+
+
+    .calific{
+          height:20em ;
+    }
+      
+      
+    .nombreP{
+          display: flex;
+          color: #fff;
+    }
+      
+
+    .carruselOp.carousel{
+          width: 30%;
+    }
+
+
+    .carruselOp{
+        display: inline-flex;
+          margin-right: 1.3rem;
+          margin-top: -3rem;
+      }
+      
+
+    .nombrep img{
+          padding: 2%;
+      }
+      
+    
+    .nombreP h5{
+           
+          padding-top: 2.2rem;
+          font-size: 1.5rem;
+    }
+      
+      
+    .stars{
+          position: relative;
+          top: -2rem;
+          display: flex;
+          flex-direction: row;
+          padding-left: 7.5rem;
+          /* font-size: 1rem; */
+          letter-spacing: 0.5rem;
+      }
+      
+      
+    i.fas.fa-star.roja{
+          color: #9C2759;
+      }
+      
+      
+    .nombreP img{
+          border-radius: 50%;
+          width: 75px;
+          height: 75px;
+          overflow: hidden;
+          margin-right: 5%;
+          margin-left: 1.5rem;
+          margin-top: 1.5rem;
+      }
+      
+      
+      #op{
+          display: flex;
+          flex-direction: column;
+          background-image:  url(./fondoazul.jpeg);
+          border-radius: 3px;
+          color:var(--blanco);
+          width: 30%;
+          margin: 1.3rem;
+      }
+      
+
+    .descripcion{
+          position: relative;
+          display: flex;
+          align-items: center;
+          height: 100%;
+          padding-left: 0.5rem;
+          margin-bottom: 3rem;
+          margin:0.4rem;
+          font-size: 1.2rem;
+      }
+
+
+    .cards{
+          display: none;
+      }
+
+
+    
+    
+}

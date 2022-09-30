@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import Home from './pages/Home';
 import Registro from './pages/Registro';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import Error404 from './pages/Error404';
+import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +14,12 @@ root.render(
   <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/registro' element={<Registro />} />
+    <Route path='/login' element={<Login />} />
+    <Route path='/Dashboard' element={<Dashboard />} />
+    <Route path='*' element={<Error404 />} />
   </Routes>
 </BrowserRouter> 
+
 );
 
 /**/

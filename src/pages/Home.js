@@ -8,6 +8,8 @@ import Ubicacion from "../components/ubicacion/Ubicacion";
 import Calificaciones from "../components/calificaciones/calificaciones";
 import '../index.css';
 
+
+
 function Home(){
     return(
         <>
@@ -18,7 +20,12 @@ function Home(){
         <Ubicacion/>
         <Calificaciones/>
         <Footer/>
+        
         </>
+       
     );
+    
 }
+
+
 export default Home;

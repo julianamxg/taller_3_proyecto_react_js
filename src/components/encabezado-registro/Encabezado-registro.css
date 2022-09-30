@@ -1,4 +1,4 @@
-.encabezado{
+.bodyR{
     background: url(./fondo.jpg)no-repeat;
     background-size: cover;
 }
@@ -24,9 +24,9 @@
     align-items: center;
 }
 
-.container{
-    width: 60%;
-    height: 100%;
+.container-registro{
+    width: 68%;
+    height: 94vh;
     margin-left: 30%;
     border-radius: 1%;
     background-color: rgba(255, 255, 255, 0.74);
@@ -43,9 +43,9 @@ label{
     margin-bottom: 0.3rem;
 }
 
-input{
+.input2{
     width: 100%;
-    padding: 2%;
+    padding: 1%;
     border: none;
     border-bottom: var(--gris) solid .2em;  
     margin-bottom: 0.5rem;
@@ -66,15 +66,15 @@ input{
 }
 
 
-.container .titulo{
+.container-registro .tituloR{
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 1%;
     width: 57%;
     height: 10%;
-    font-size: 2rem;
-    margin: 1rem;
+    font-size: 3rem;
+    margin-top: -1rem;
+    font-weight: lighter;
 }
 
 .form{
@@ -141,14 +141,54 @@ input{
   display: none;
 }
 
-.boton{
+
+.modal{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 100px;
     display: none;
+}
+
+.contenidoModal{
+    background-color: #FFFFFF;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    animation-name: animarmodal;
+    animation-duration: 0.5s;
+    padding-bottom: 1rem;
+    
+}
+
+.contenidoModal h2{
+    background: rgb(47,100,148);
+    background: linear-gradient(90deg, rgba(47,100,148,1) 0%, rgba(11,56,96,1) 100%);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0.7rem;
+}
+
+.contenidoModal button{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.p{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 
 
+
 @media screen and (min-width: 200px) and (max-width: 600px){
-body{
+.bodyR{
    
     background: url(./fondo.jpg)no-repeat;
     background-size: cover;
@@ -166,7 +206,7 @@ h1,h2,h3,h4,h5{
 }
 
 
-.menu{
+/*.menu{
     width: 100vh;   
     color: white;
     display: flex;
@@ -178,7 +218,8 @@ h1,h2,h3,h4,h5{
     font-size:xx-large;
     align-content: center;
     margin-top: 2rem;
-}
+}*/
+
 
 .encabezado{
     display: flex;
@@ -206,21 +247,7 @@ h1,h2,h3,h4,h5{
     align-items: center;
 }
 
-.container{
-    position: unset;
-    width: 76vh;
-    height: auto;
-    border-radius: 1%;
-    background-color: rgba(255, 255, 255, 0.74);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    margin: 1rem;
-    padding: 3%;
-    margin-top: 1rem;
-    
-}
+
 
 label{
     font-family: 'Roboto', sans-serif;
@@ -229,7 +256,7 @@ label{
     font-size: 0.9rem;
 }
 
-input{
+.input2{
     width: 100%;
     padding: 1.5%;
     border: none;
@@ -252,15 +279,16 @@ input{
    
 }
 
-.container .titulo{
+.container-registro .tituloR{
     display: flex;
     justify-content: center;
     align-self: center;
     padding-top: 2rem;
     width: 57%;
     height: 10%;
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 3rem;
+    margin-top: -1rem;
+    font-weight: lighter;
 }
 
 .form{
