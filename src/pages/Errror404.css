@@ -1,0 +1,14 @@
+.error{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-top: 16%;
+    margin-left: 5rem;
+}
+
+.error img{
+    width: 17%;
+    margin-bottom: 2rem;
+}
+

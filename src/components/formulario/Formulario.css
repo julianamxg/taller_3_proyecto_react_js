@@ -1,3 +1,128 @@
+
+.informacion{
+    background: url(./fondoDash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.informacion{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido{
+    width: 70%;
+    height: 94vh;
+    margin-left: 17%;
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.74);
+    display: flex;
+    margin-top:0.5rem ;
+    flex-direction: column;
+   
+}
+
+
+.inferior{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.foto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.foto img{
+    border-radius: 5%;
+    margin-bottom: 5%;
+    width: 61%;
+    
+}
+
+
+.formulario{
+    width: 75%;
+    height: 140%;
+}
+
+
+.iconosDash{
+    width: 70%;
+    height: 7%;
+    background-color: #337AB7;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconosDash i{
+    font-size: 1.5em;
+    margin: 2% 8% 2% 8%;
+    color: white;
+}
+
+
+.contra{
+    width: 70%;
+    height: 14%;
+    border-radius: 2%;
+    background-color: var(--negro);
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contra{
+    width: 70%;
+    height: 14%;
+    border-radius: 2%;
+    background-color: var(--negro);
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contra a{
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    text-decoration: none;
+    color: #fff
+}
+
+
+.contenido .Bienvenido{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Bienvenido h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
+/********/
 .formulario{
     width: 100%;
     margin: 1em;
@@ -11,27 +136,28 @@
 }
 
 
-.form{
+.formDash{
     display: flex;
     flex-direction: column;
 }
 
 
-.form input{
-    width: 25em;
-    height: 2em;
+.formDash input{
+    width: 21em;
+    height: 1.9em;
     border: none;
     margin: 4px;
     border-bottom: 2px solid var(--gris);
+    font-size: 15px;
 }
 
-.form input[type=radio]{
+.formDash input[type=radio]{
     width: 5em;
     
 }
 
 
-.form .radio{
+.formDash .radio{
     display: flex;
     padding: 0em;
     margin-left: -4%;
@@ -44,7 +170,7 @@
 }
 
 
-.form a{
+.formDash a{
     display: 	flex;
     background: var(--negro);
     width: 18rem;
@@ -52,12 +178,14 @@
     border-radius: .2em;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: #fff
     
     
 }
 
 
-.form label{
+.formDash label{
     color: black;
     font-weight: 200;
     font-size: 1em;
@@ -67,7 +195,7 @@
 }
 
 
-.form a h2{
+.formDash a h2{
     font-weight: 100;
 }
 
@@ -79,7 +207,7 @@
 }
 
 
-.form.separador{
+.formDash.separador{
     margin-left: -7%;
 }
 
@@ -87,24 +215,24 @@
 /********/
 
 @media screen and (max-width: 1072px){
-    .logo .desktop{
+    .logoDash .desktop{
         display: none;
     }
     
     
-    .logo .mobile{
+    .logoDash .mobile{
         display: block;
     }
     
     
-    .descripcion .fotoP #perfil{
+    .descripcionDash .fotoP #perfil{
         display: flex;
         height: 3em;
         width: 3em;
     }
     
     
-    .descripcion img{
+    .descripcionDash img{
         display: block;
         max-width: 40px;
         width: 100%;
@@ -112,18 +240,18 @@
     }
     
     
-    .descripcion{
+    .descripcionDash{
         justify-content: center;
         align-items: center;
     }
     
     
-    .descripcion h3,h4{
+    .descripcionDash h3,h4{
         display: none;
     }
 
 
-    .iconos .icon_1{
+    .iconosDash .icon_1{
         display: none;
     }
 
@@ -202,7 +330,7 @@
     }
     
     
-    .iconos{
+    .iconosDash{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -218,12 +346,13 @@
     }
 
 
-    .password{
-     
+    .password a{
       font-size: 0.8em;
       width: 100%;
       height: 100%;
       margin-bottom: 10%;
+      text-decoration: none;
+      color: #fff
     }
     
     
@@ -266,12 +395,12 @@
     }
 
 
-    .form input{
+    .formDash input{
         width: 90%;
     }
 
 
-    .form input[type=radio]{
+    .formDash input[type=radio]{
         width: 1em;
         
     }
@@ -282,19 +411,21 @@
     }
 
 
-    .form a{
+    .formDash a{
         width: 12em;
+        text-decoration: none;
+        color: #fff
     }
 
 
-    .password{
+    .contra{
         display: none;
     }
 }
 
 
 @media screen and (min-width: 1073px) and (max-width: 1300px) {
-    .descripcion img{
+    .descripcionDash img{
         display: flex;
     }
 
@@ -304,7 +435,7 @@
     }
 
 
-    .descripcion .icon_p #perfil{
+    .descripcionDash .icon_p #perfil{
         display: flex;
         margin-top: -105%;
         margin-left: 100%;
@@ -316,12 +447,12 @@
     }
 
 
-    .password {
+    .contra a {
         display: none;
     }
 
 
-    .iconos {
+    .iconosDash {
         display: none;
     }
 }

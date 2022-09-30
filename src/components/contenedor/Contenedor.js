@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logov from "./Hotelia horizontal negro.svg";
 import "./Contenedor.css";
 function Contenedor(){
@@ -8,23 +9,23 @@ function Contenedor(){
             <img src={logov} alt="Hotelia horizontal negro"/>
         </div>
         <div class="caja">
-            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-user login"></i>
             <form action="#"/>
 
                 <div class="campo">
-                    <label for="">Usuario</label>
-                    <input type="text"/>
+                    <label className="label" for="">Usuario</label>
+                    <input className="input" type="text"/>
                 </div>
 
                 <div class="campo">
-                    <label for="">Contraseña</label>
-                    <input type="text"/>
+                    <label className="label" for="">Contraseña</label>
+                    <input className="input" type="text"/>
                 </div>
 
 
-                <button class="boton"><a href="../assets/dashboard.html">Ingresar</a></button>
+                <button class="boton3"><Link to="/dashboard">Ingresar</Link></button>
 
-                <p>¿No tienes una cuenta? <a href="../assets/registro.html">Regístrate aquí.</a> </p>
+                <p class="cuenta" >¿No tienes una cuenta? <Link to="/registro" >Regístrate aquí.</Link> </p>
         </div>
     </div>
     </div>
@@ -32,7 +33,6 @@ function Contenedor(){
 }
 
 export default Contenedor;
-
 
 
 
