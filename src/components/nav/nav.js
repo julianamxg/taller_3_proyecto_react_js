@@ -15,8 +15,8 @@ function Nav(){
         </div>
         <div class="menu">
                 <Link to="/" class="item">Inicio</Link>
-                <Link to="/" class="item">Ubícanos</Link>
-                <Link to="/" class="item">Opiniones</Link>
+                <Link to="/listarAc/" class="item">Ubícanos</Link>
+                <Link to="/user/" class="item">Opiniones</Link>
                 <hr class="menu-hr" noshade=""></hr>
                 <Link to="/login" class="item2"><i class="fa-solid fa-user inicio"></i> Iniciar Sesión</Link>
         </div>
