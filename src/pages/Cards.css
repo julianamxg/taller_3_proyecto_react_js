@@ -1,4 +1,20 @@
 .col-4{
     width: 29%;
-    margin: auto;
+    margin: 1.5rem;
+}
+
+img {
+    width: 40%;
+    margin: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem ;
+}
+
+a:hover{
+    color:black
 }

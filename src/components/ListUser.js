@@ -1,7 +1,10 @@
 import axios from 'axios';
 import { useEffect,useState} from "react";
 import { Link } from "react-router-dom";
-import logov from "../pages/Hotelia horizontal negro.svg";
+import logov from "../pages/Hotelia horizontal blanco.svg";
+import "./nav/Nav.css";
+import PropsNav from "./nav/PropsNav";
+
 
 
 function ListUser(){
@@ -30,9 +33,25 @@ function ListUser(){
     
     return(
         <>
+         <nav>
+        <div class="logoN">
+            <PropsNav
+                iconoNav="fa-solid fa-bars icono"
+                imagenNav={logov}/>
+        </div>
+        <div class="menu">
+                <Link to="/" class="item">Inicio</Link>
+                <Link to="/listarAc/" class="item">Editar usuarios</Link>
+                <Link to="/user/" class="item">Usuarios</Link>
+                <hr class="menu-hr" noshade=""></hr>
+                <Link to="/registro" class="item">Nuevo usuario</Link>
+        </div>
+        
+       
+    </nav>
         <div className='usuarios'>
-        <img src={logov} />
-         <Link to="/new">Nuevo Usuario</Link>
+       
+
             <h1>Lista Usuarios</h1>
             <table class="table table-bordered">
             <thead>

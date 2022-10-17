@@ -2,6 +2,12 @@ import { Card } from "react-bootstrap";
 import axios from "axios";
 import Swal from "sweetalert2";
 import './Cards.css';
+import { Link } from "react-router-dom";
+import logov from "./Hotelia horizontal negro.svg";
+/*import "../components/nav/Nav.css";*/
+
+
+
 
 
 function ListarAc({users,setUplist,upList,handleOpen,setDataModal}){
@@ -57,17 +63,22 @@ function ListarAc({users,setUplist,upList,handleOpen,setDataModal}){
         setDataModal(users);
     }
     return(<>
-     <imgCard/>
+  
+    
         <div className="col-4 mb-3">
         <Card>
             <Card.Body>
+         
+            <img src={logov}></img>
+            <Link to="/user/" >Usuarios</Link>
+            <Link to="/registro" >Crear</Link>
                 <Card.Title className="text-center">{users.nombre} {users.apellido}</Card.Title>
                 <Card.Text>
                 <strong>Tipo Documento: </strong>{users.tipodoc}<br/>
-                <strong>No. Documento: </strong>{users.numdoc}<br/>                
+                <strong>No. Documento: </strong>{users._id}<br/>                
                 </Card.Text>
                 <button className="btn btn-primary me-2" onClick={handleEdit}>Editar</button>
-                <button className="btn btn-danger" onClick={handleDelete}>Eliminar</button>
+                <button className="btn btn-dark" onClick={handleDelete}>Eliminar</button>
             </Card.Body>
             
         </Card>
